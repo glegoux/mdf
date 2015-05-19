@@ -1,5 +1,4 @@
-# Competion :   
-# "Meilleur Développeur de France"
+## Competion "Meilleur Développeur de France"
 
 ## Description
 
