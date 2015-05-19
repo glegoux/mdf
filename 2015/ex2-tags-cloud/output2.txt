@@ -1,0 +1,5 @@
+cinema 20
+international 16
+education 14
+culture 12
+campus 10

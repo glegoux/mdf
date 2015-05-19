@@ -1,0 +1,3 @@
+Les mots sont importants. L'ordre ne l'est pas.
+Les espaces  entre les MOTS ne sont pas importants.
+Les Mots , les espaces et Majuscules ne sont pas  importants.
