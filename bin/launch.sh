@@ -7,23 +7,6 @@ cd $(dirname "$0")
 . "../bin/color.sh"
 . "../bin/helper.sh"
 
-# helper
-message() {
-    echo "${1}${2}${NC}"
-}
-
-error() {
-    echo "${RED}ERROR: ${@}!${NC}"
-}
-
-success() {
-    echo "${GREEN}SUCCESS: ${@}!${NC}"
-}
-
-info() {
-    echo "${CYAN}${@}${NC}"
-}
-
 # script
 message $YELLOW "--- BEGIN: Test MDF $(basename "$(pwd)") ($(pwd)) ---"
 shebang=$(cat ../bin/main.py | head -1)
