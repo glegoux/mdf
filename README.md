@@ -23,7 +23,7 @@ We can write your own solution in you are a bash terminal :
 
 4) Run your exercise with the script `launch`.
 
-5) If your results are correct for each `input.txt`, you can go to the next exercise.
+5) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
 **Note**: Each exercise folder contains :
 -
