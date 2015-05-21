@@ -26,9 +26,5 @@ We can write your own solution in you are a bash terminal :
 5) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
 *Note :* Each exercise folder contains :
--
--
--
--
 
 Here a example of output after that you executed the script `launch` :
