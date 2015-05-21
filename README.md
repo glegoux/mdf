@@ -1,5 +1,7 @@
 # Competition "Meilleur Dev de France"
 
+![alt text][mdf]
+
 ## Description
 
 Few short exercices to train its capacity to code with a limit of time (1h30 by session).  
@@ -32,3 +34,4 @@ Here a example of output after that you executed the script `launch` :
 ![alt text][example]
 
 [example]: https://github.com/glegoux/mdf/blob/master/example.png "example"
+[mdf]: https://github.com/glegoux/mdf/blob/master/mdf.png "mdf"
