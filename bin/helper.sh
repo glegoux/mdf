@@ -2,7 +2,7 @@
 
 # helper
 message() {
-    echo "${1}${2}${NC}"
+    echo "${@}${NC}"
 }
 
 error() {
