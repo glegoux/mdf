@@ -13,7 +13,7 @@ The 2014 and 2015 session are availabe with my solution in Python 3.
 
 We can write your own solution in you are a bash terminal :
 
-1) Choose your session (for instance go to `2014`).  
+1) Choose your session (for instance go to `2014/`).  
 
 2) Choose the first exercise (`ex1-...` ).
 
@@ -21,10 +21,14 @@ We can write your own solution in you are a bash terminal :
 
 3) Write your solution in editing the file answer.py in Python 3.
 
-4) Run your exercise with the script `launch` in the current session (for instance `2014`).
+4) Run your exercise with the script `launch` in the current session (for instance `2014/`).
 
 5) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
-*Note :* Each exercise folder contains :
+*Note :* You can put your tracks with the function local_print() directy. In reality, when you are executing `launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.
 
 Here a example of output after that you executed the script `launch` :
+
+![alt text][example]
+
+[example]: https://github.com/glegoux/mdf/blob/master/example.png "example"
