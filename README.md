@@ -13,19 +13,19 @@ The 2014 and 2015 session are availabe with my solution in Python 3.
 
 We can write your own solution in you are a bash terminal :
 
-1) Choose your session (for instance `2014`) and go to the folder.  
+1) Choose your session (for instance go to `2014`).  
 
-2) Choose the first exercise (`ex1-...` ) and go the folder.
+2) Choose the first exercise (`ex1-...` ).
 
 2) Read the direction thanks to the picture `direction.png`.
 
 3) Write your solution in editing the file answer.py in Python 3.
 
-4) Run your exercise with the script `launch`.
+4) Run your exercise with the script `launch` in the current session (for instance `2014`).
 
 5) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
-**Note**: Each exercise folder contains :
+*Note :* Each exercise folder contains :
 -
 -
 -
