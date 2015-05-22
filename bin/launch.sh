@@ -9,6 +9,7 @@ cd $(dirname "$0")
 
 # script
 message $YELLOW "--- BEGIN: Test MDF $(basename "$(pwd)") ($(pwd)) ---"
+
 shebang=$(cat ../bin/main.py | head -1)
 python_interpreter=$(echo "$shebang" | sed 's/^#![ ]*//')
 version=$($python_interpreter --version 2>&1)
@@ -23,6 +24,7 @@ if test $status_shebang -gt 0 -o $status_version -gt 0; then
     "To use the version 3 of python"
     exit 1
 fi
+
 exos=$(ls -d */)
 for exo in $exos; do
     message $BLUE "** $exo"
@@ -75,5 +77,6 @@ for exo in $exos; do
     done
     cd ..
 done
+
 message $YELLOW "--- END ---"
 exit 0
