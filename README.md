@@ -29,9 +29,10 @@ We can write your own solution in you are a Bourne Shell :
 
 7) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
-*Note :* You can put your tracks with the function `local_print()` directly. In reality, when you are executing `launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.
+*Note :* You can put your tracks with the function `local_print()` directly.  
+In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.
 
-Here a example of output after that you executed the script `launch` :
+Here an example of output after that you executed the script `launch` :
 
 ![alt text][example]
 
