@@ -33,7 +33,7 @@ We can write your own solution in you are a Bourne Shell :
 *Note :* You can put your tracks with the function `local_print()` directly.  
 In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.
 
-Here an example of output after that you executed the script `launch` :
+Here an example of output after that you executed the script `./launch` :
 
 ![alt text][example]
 
