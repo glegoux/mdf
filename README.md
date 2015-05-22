@@ -13,7 +13,7 @@ The 2014 and 2015 session are availabe with my solution in Python 3.
 
 ## Use
 
-We can write your own solution in you are a bash terminal :
+We can write your own solution in you are a Bourne Shell :
 
 1) Choose your session (for instance go to `2014/`).  
 
