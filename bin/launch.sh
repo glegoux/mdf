@@ -26,11 +26,7 @@ fi
 exos=$(ls -d */)
 for exo in $exos; do
     message $BLUE "** $exo"
-    cd $exo
-    if ! test -x ./answer.py; then
-        error "missing or unexecutable answer.py"
-        exit 1
-    fi
+    cd "$exo"
     inputs=$(ls -1 | grep -E ^input)
     for input in $inputs; do
         echo "$input:"
@@ -79,5 +75,5 @@ for exo in $exos; do
     done
     cd ..
 done
-message $YELLOW --- END ---
+message $YELLOW "--- END ---"
 exit 0
