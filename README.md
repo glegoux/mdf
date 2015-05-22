@@ -17,15 +17,17 @@ We can write your own solution in you are a bash terminal :
 
 1) Choose your session (for instance go to `2014/`).  
 
-2) Choose the first exercise (`ex1-...` ).
+3) Clean in running the script `clean` to have each exercise without my solution.  
 
-2) Read the direction thanks to the picture `direction.png`.
+3) Choose the first exercise (`ex1-...` ).
 
-3) Write your solution in editing the file answer.py in Python 3.
+4) Read the direction thanks to the picture `direction.png` (or with here https://github.com/glegoux/mdf/tree/master/2014).  
 
-4) Run your exercise with the script `launch` in the current session (for instance `2014/`).
+5) Write your solution in editing the file answer.py in Python 3.
 
-5) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
+6) Run your exercise with the script `launch` in the current session (for instance `2014/`).
+
+7) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
 *Note :* You can put your tracks with the function local_print() directy. In reality, when you are executing `launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.
 
