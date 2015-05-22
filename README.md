@@ -21,7 +21,8 @@ We can write your own solution in you are a Bourne Shell :
 
 3) Choose the first exercise (`ex1-...` ).
 
-4) Read the direction thanks to the picture `direction.png` (or with here https://github.com/glegoux/mdf/blob/master/2014/README.md).  
+4) Read the direction thanks to the picture `direction.png` 
+(or with here https://github.com/glegoux/mdf/blob/master/2014/README.md).  
 
 5) Write your solution in editing the file answer.py in Python 3.
 
