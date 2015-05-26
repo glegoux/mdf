@@ -30,7 +30,7 @@ We can write your own solution in you are a Bourne Shell :
 4) Read the direction thanks to the picture `direction.png`  
 (or here https://github.com/glegoux/mdf/blob/master/2014/README.md).  
 
-5) Write your solution in editing the file answer.py in Python 3.
+5) Write your solution in editing the file `answer.py` in **Python 3**.
 
 6) Run your exercise with the script `launch` in the current session (for instance `2014/`).
 
