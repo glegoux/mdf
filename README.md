@@ -11,13 +11,19 @@ See statements of the coding contest 2015 at http://www.isograd.com/EN/contestso
 
 The 2014 and 2015 session are availabe with my solution in Python 3.
 
+Each session has 7 exercices, each one matches to a folder that contains :
+- `answer.py`      : your response with a script in Python 3.  
+- `direction.png`  : the statements of the current exercise.  
+- `input<i>.txt`   : a test from stdin.  
+- `output<i>.txt`  : the expected result for `input<i>.txt`.  
+
 ## Use
 
 We can write your own solution in you are a Bourne Shell :
 
 1) Choose your session (for instance go to `2014/`).  
 
-3) Clean in running the script `clean` to have each exercise without my solution.  
+2) Clean in running the script `clean` to have each exercise without my solution.  
 
 3) Choose the first exercise (`ex1-...` ).
 
@@ -30,8 +36,11 @@ We can write your own solution in you are a Bourne Shell :
 
 7) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
-*Note :* You can put your tracks with the function `local_print()` directly.  
-In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.
+*Note :*   
+- You can put your tracks with the function `local_print()` directly.    
+In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.  
+- You can use the script `./edit`, if you want read and edit all exercises of the current session.
+
 
 Here an example of output after that you executed the script `./launch` :
 
