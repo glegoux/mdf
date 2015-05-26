@@ -13,4 +13,27 @@ lines = list()
 for line in sys.stdin:
     lines.append(line.rstrip('\n'))
 
-print("TODO")
+N=int(lines[0])
+del lines[0]
+
+d = dict()
+for tag in lines:
+    if d.get(tag) is None:
+        d[tag] = 1
+    else:
+        d[tag] += 1
+
+l = list()
+for tag, v in d.items():
+    l.append(v)
+
+l.sort()
+l.reverse()
+l = l [:5]
+
+for sv in l:
+    for tag, v in d.items():
+        if v == sv: 
+            print(tag, v)
+    
+      
