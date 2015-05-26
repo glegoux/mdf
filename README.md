@@ -11,7 +11,7 @@ See statements of the coding contest 2015 at http://www.isograd.com/EN/contestso
 
 The 2014 and 2015 session are availabe with my solution in Python 3.
 
-Each session has 7 exercices, each matches to a folder that contains :
+Each session has 7 exercices, each one matches to a folder that contains :
 - `answer.py`      : your response with a script in Python 3.  
 - `direction.png`  : the statements of the current exercise.  
 - `input<i>.txt`   : a test from stdin.  
