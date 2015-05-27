@@ -43,7 +43,7 @@ We can write your own solution. If you have a Bourne Shell, do what is following
 *Note :*   
 - You can put your tracks with the function `local_print()` directly.    
 In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.  
-- You can use the script `./edit`, if you want read and edit all exercises of the current session.
+- You can use the script `./edit`, if you want read and/or edit all exercises of the current session.
 
 [example]: https://github.com/glegoux/mdf/blob/master/example.png "example"
 [mdf]: https://github.com/glegoux/mdf/blob/master/mdf.png "mdf"
