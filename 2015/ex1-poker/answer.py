@@ -18,10 +18,11 @@ del lines[0]
 N = int(lines[0])
 del lines[0]
 
-account=S
+account = S
 for line in lines:
-    X = int(line.split(' ')[0])
-    Y = int(line.split(' ')[1])
+    l = line.split(' ')
+    X = int(l[0])
+    Y = int(l[1])
     account = account - X + Y 
 
 print(account)
