@@ -19,32 +19,31 @@ Each session has 7 exercices, each one matches to a folder that contains :
 
 ## Use
 
-We can write your own solution in you are a Bourne Shell :
+Here an example of output after that you executed the script `./launch` (see **6.** ) :
 
-1) Choose your session (for instance go to `2014/`).  
+![alt text][example]
 
-2) Clean in running the script `clean` to have each exercise without my solution.  
+We can write your own solution. If you have a Bourne Shell, do what is following :
 
-3) Choose the first exercise (`ex1-...` ).
+**1.** Choose your session (for instance go to `2014/`).  
 
-4) Read the direction thanks to the picture `direction.png`  
+**2.** Clean in running the script `./clean` to have each exercise without my solution.  
+
+**3.** Choose the first exercise (here `ex1-trivial-pursuit`).
+
+**4.** Read the direction thanks to the picture `direction.png`  
 (or here https://github.com/glegoux/mdf/blob/master/2014/README.md).  
 
-5) Write your solution in editing the file `answer.py` in **Python 3**.
+**5.** Write your solution in editing the file `answer.py` in **Python 3**.
 
-6) Run your exercise with the script `launch` in the current session (for instance `2014/`).
+**6.** Run your exercise(s) in ascending order with the script `./launch` in the current session (here `2014/`).
 
-7) If your results are correct for each `input<i>.txt`, you can go to the next exercise.
+**7.** If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
 *Note :*   
 - You can put your tracks with the function `local_print()` directly.    
 In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.  
-- You can use the script `./edit`, if you want read and edit all exercises of the current session.
-
-
-Here an example of output after that you executed the script `./launch` :
-
-![alt text][example]
+- You can use the script `./edit`, if you want read and/or edit all exercises of the current session.
 
 [example]: https://github.com/glegoux/mdf/blob/master/example.png "example"
 [mdf]: https://github.com/glegoux/mdf/blob/master/mdf.png "mdf"

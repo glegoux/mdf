@@ -45,7 +45,7 @@ for k, c in enumerate(seq):
         
     if bc_markup and e_markup:
         if not(bo_markup):
-            print("E {} <{}> </{}>".format(pos, label, lifo[-1]))
+            print("E {} {} {}".format(pos, label, lifo[-1]))
             break
         if label != lifo[-1]:
             print("E {} {} {}".format(pos, label, lifo[-1]))
