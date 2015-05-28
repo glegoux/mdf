@@ -13,8 +13,8 @@ lines = list()
 for line in sys.stdin:
     lines.append(line.rstrip('\n'))
 
-H = int(lines[0].split(' ')[0])
-L = int(lines[0].split(' ')[1])
+l = lines[0].split(' ')
+H, L = int(l[0]), int(l[1])
 del lines[0]
 
 M = list()
@@ -22,16 +22,15 @@ for i in range(H):
     M.append([0]*L)
 
 E = list()
-
-def distance(case):
-    global i, j
-    return abs(i - case[0]) + abs(j - case[1])
-
 for i, line in enumerate(lines):
     for j, case in enumerate(line):
         if case == '.':
             M[i][j] = 0
             E.append([i, j])
+
+def distance(case):
+    global i, j
+    return abs(i - case[0]) + abs(j - case[1])
 
 for i, line in enumerate(lines):
     for j, case in enumerate(line):
