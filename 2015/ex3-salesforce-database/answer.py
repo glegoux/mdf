@@ -23,9 +23,7 @@ X, Y, Z = 0, 0, 0, 0
 db = dict()
 for line in lines:
     l = line.split(';')
-    _id = ';'.join(l[:3])
-    phone = l[3]
-    country = l[4]
+    _id, phone, country = ';'.join(l[:3]), l[3], l[4]
 
     if db.get(_id) is None:
         db[_id] = True
