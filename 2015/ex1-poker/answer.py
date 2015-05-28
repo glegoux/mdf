@@ -13,12 +13,12 @@ lines = list()
 for line in sys.stdin:
     lines.append(line.rstrip('\n'))
 
-S = int(lines[0])
+A = int(lines[0])
 del lines[0]
 N = int(lines[0])
 del lines[0]
 
-account = S
+account = A
 for line in lines:
     l = line.split(' ')
     X = int(l[0])
