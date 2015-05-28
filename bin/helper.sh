@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# helper
 message() {
     echo "${@}${NC}"
 }
