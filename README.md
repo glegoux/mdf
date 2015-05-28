@@ -17,7 +17,7 @@ Each session has 7 exercices, each one matches to a folder that contains :
 - `input<i>.txt`   : a test from stdin.  
 - `output<i>.txt`  : the expected result for `input<i>.txt`.  
 
-## Use
+## Usage
 
 Here an example of output after that you executed the script `./launch` (see **6.** ) :
 
