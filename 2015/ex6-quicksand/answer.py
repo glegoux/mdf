@@ -28,14 +28,14 @@ for i, line in enumerate(lines):
             M[i][j] = 0
             E.append([i, j])
 
-def distance(case):
+def dist(case):
     global i, j
     return abs(i - case[0]) + abs(j - case[1])
 
 for i, line in enumerate(lines):
     for j, case in enumerate(line):
         if case == '#':
-            M[i][j] = min(list(map(distance, E)))
+            M[i][j] = min(list(map(dist, E)))
 
 deepest = 0
 for line in M:
