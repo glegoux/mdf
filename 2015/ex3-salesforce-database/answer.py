@@ -19,18 +19,16 @@ del lines[0]
 countries = lines[0].split(';')
 del lines[0]
 
-X = 0
-Y = 0
-Z = 0
+X, Y, Z = 0, 0, 0, 0
 db = dict()
 for line in lines:
-    formated_line = line.split(';')
-    i = formated_line[0]  + ";"  + formated_line[1] + ";" + formated_line[2]
-    phone = formated_line[3]
-    country = formated_line[4]
+    l = line.split(';')
+    _id = ';'.join(l[:3])
+    phone = l[3]
+    country = l[4]
 
-    if db.get(i) is None:
-        db[i] = True
+    if db.get(_id) is None:
+        db[_id] = True
     else:
         X += 1
         continue
