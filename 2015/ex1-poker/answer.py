@@ -21,8 +21,7 @@ del lines[0]
 account = A
 for line in lines:
     l = line.split(' ')
-    X = int(l[0])
-    Y = int(l[1])
+    X, Y = int(l[0]), int(l[1])
     account = account - X + Y 
 
 print(account)
