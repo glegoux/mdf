@@ -45,7 +45,7 @@ We can write your own solution. If you have a Bourne Shell, do what is following
 - You can put your tracks with the function `local_print()` directly. It creates a file `track<i>.txt` for each `input<i>.txt` for the current exercise, if you want to see your tracks again after running.    
 In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.  
 - You can use the script `./edit`, if you want read and/or edit all exercises of the current session.
-- You can run the current exercise with a test `input<i>.txt` directly with the command `./answer.py < input<i>.txt`, but without using `local_print` function. The script `/lauchn` runs the exercise in ascending order, and stop as soon as an error (false reponse or syntax error ...) is found.
+- You can run the current exercise with a test `input<i>.txt` directly with the command `./answer.py < input<i>.txt`, but without using `local_print` function. The script `./launch` runs the exercise in ascending order, and stop as soon as an error (false reponse or syntax error ...) is found.
 - My solutions are not for each exercise the most efficient and relevant for performances. The goal of this competition is to find the solution the most quick, no always the most smart. 
 
 
