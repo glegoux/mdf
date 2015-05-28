@@ -19,7 +19,7 @@ del lines[0]
 countries = lines[0].split(';')
 del lines[0]
 
-X, Y, Z = 0, 0, 0, 0
+X, Y, Z = 0, 0, 0
 db = dict()
 for line in lines:
     l = line.split(';')
