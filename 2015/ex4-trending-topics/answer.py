@@ -15,11 +15,9 @@ for line in sys.stdin:
 
 N = lines[0]
 del lines[0]
- 
-i = 0
+
 d = dict()
 for n, tag in enumerate(lines):
-    
     if d.get(tag) is None:
         d[tag] = 1
     else:
