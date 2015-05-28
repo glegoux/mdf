@@ -46,7 +46,7 @@ We can write your own solution. If you have a Bourne Shell, do what is following
 In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.  
 - You can use the script `./edit`, if you want read and/or edit all exercises of the current session.
 - You can run the current exercise with a test `input<i>.txt` directly with the command `./answer.py < input<i>.txt`, but without using `local_print` function. This allows to do the exercises in any order, because the script `./launch` runs the exercises in ascending order, and stop as soon as an error (false reponse or syntax error ...) is found.
-- My solutions are not for each exercise the most efficient and relevant for performances. The goal of this competition is to find the solution the most quick, no always the most smart. 
+- For each exercise, my solution is not the most efficient and relevant for performance. The goal of this competition is to find the solution the most quick, no always the most smart. 
 
 
 [example]: https://github.com/glegoux/mdf/blob/master/example.png "example"
