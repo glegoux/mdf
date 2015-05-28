@@ -13,36 +13,36 @@ lines = list()
 for line in sys.stdin:
     lines.append(line.rstrip('\n'))
 
-seq=list(lines[0])
-s_seq=""
-lifo=[]
-label=""
-bo_markup=False
-bc_markup=False
-e_markup=False
-pos=0
+seq = list(lines[0])
+s_seq = ""
+lifo = list()
+label = ""
+bo_markup = False
+bc_markup = False
+e_markup = False
+pos = 0
 
 for k, c in enumerate(seq):
 
     if c == "<" and seq[k+1] != "/":
-        bo_markup=True
-        pos=k
+        bo_markup = True
+        pos = k
     elif seq[k-1] == "<" and c == "/":
-        bc_markup=True
-        pos=k-1
+        bc_markup = True
+        pos = k - 1
         continue
     elif c.isalpha():
         label += c
     elif c == ">":
         if not(bc_markup):
             s_seq += "(" + label 
-        e_markup=True
-        
+        e_markup = True
+
     if bo_markup and e_markup and not(bc_markup):
         lifo.append(label)
-        label=""
-        e_markup=False
-        
+        label = ""
+        e_markup = False
+
     if bc_markup and e_markup:
         if not(bo_markup):
             print("E {} {} {}".format(pos, label, lifo[-1]))
@@ -53,11 +53,11 @@ for k, c in enumerate(seq):
         else:
             s_seq += ")"
             del lifo[-1]
-        label=""
+        label = ""
         if len(lifo) == 0:
-            bo_markup=False
-        bc_markup=False
-        e_markup=False
+            bo_markup = False
+        bc_markup = False
+        e_markup = False
 
 else:
     print(s_seq)
