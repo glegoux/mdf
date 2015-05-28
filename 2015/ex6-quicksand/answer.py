@@ -18,7 +18,7 @@ H, L = int(l[0]), int(l[1])
 del lines[0]
 
 M = list()
-for i in range(H):
+for _ in range(H):
     M.append([0]*L)
 
 E = list()
@@ -37,10 +37,8 @@ for i, line in enumerate(lines):
         if case == '#':
             M[i][j] = min(list(map(distance, E)))
 
-res = 0
-for i in range(H):
-    for j in range(L):
-        if M[i][j] > res:
-            res = M[i][j]
+deepest = 0
+for line in M:
+    deepest = max(deepest, max(line))
 
-print(res)
+print(deepest)
