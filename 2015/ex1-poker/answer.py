@@ -12,7 +12,6 @@ import sys
 lines = list()
 for line in sys.stdin:
     lines.append(line.rstrip('\n'))
-
 A = int(lines[0])
 del lines[0]
 N = int(lines[0])
