@@ -13,7 +13,7 @@ lines = list()
 for line in sys.stdin:
     lines.append(line.rstrip('\n'))
 
-s=sum(list(map(int, lines)))
+s = sum(list(map(int, lines)))
 
 if s % 6 == 1:
     print("orange")
