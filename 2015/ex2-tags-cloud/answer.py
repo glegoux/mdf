@@ -13,7 +13,7 @@ lines = list()
 for line in sys.stdin:
     lines.append(line.rstrip('\n'))
 
-N=int(lines[0])
+N = int(lines[0])
 del lines[0]
 
 d = dict()
@@ -23,17 +23,15 @@ for tag in lines:
     else:
         d[tag] += 1
 
-l = list()
-for tag, v in d.items():
-    l.append(v)
+nbs = list()
+for tag, nb in d.items():
+    nbs.append(nb)
 
-l.sort()
-l.reverse()
-l = l [:5]
+nbs.sort()
+nbs.reverse()
+nbs = nbs[:5]
 
-for sv in l:
-    for tag, v in d.items():
-        if v == sv: 
-            print(tag, v)
-    
-      
+for nb in nbs:
+    for tag, _nb in d.items():
+        if nb == _nb: 
+            print(tag, nb)
