@@ -15,10 +15,6 @@ for line in sys.stdin:
 
 s = lines[0]
 
-if len(s) < 3:
-    print(s)
-    exit(0)
-
 cs = ''
 pc = s[0]
 pn = 1
