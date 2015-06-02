@@ -29,7 +29,7 @@ We can write your own solution. If you have a Bourne Shell, do what is following
 
 **2.** Clean in running the script `./clean` to have each exercise without my solution.  
 
-**3.** Choose the first exercise (here `ex1-trivial-pursuit`).
+**3.** Choose the first exercise (here `ex1-trivial-pursuit/`).
 
 **4.** Read the direction thanks to the picture `direction.png`  
 (or here https://github.com/glegoux/mdf/blob/master/2014/README.md).  
