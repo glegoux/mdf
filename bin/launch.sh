@@ -10,21 +10,6 @@ cd $(dirname "$0")
 # script
 message $YELLOW "--- BEGIN: Test MDF $(basename "$(pwd)") ($(pwd)) ---"
 
-shebang=$(cat ../bin/main.py | head -1)
-python_interpreter=$(echo "$shebang" | sed 's/^#![ ]*//')
-version=$($python_interpreter --version 2>&1)
-status_shebang=$(echo $?)
-$(echo "$version" | grep -q "^Python 3")
-status_version=$(echo $?)
-if test $status_shebang -gt 0 -o $status_version -gt 0; then
-    error "shebang '${shebang}' of main.py is incorrect, edit it.\n" \
-    "The first line of main.py should be: #!<path_to_python_interpreter>.\n" \
-    "To find this path, do the command 'which python'.\n" \
-    "(Or 'which python3' if the version 2 is by default)\n" \
-    "To use the version 3 of python"
-    exit 1
-fi
-
 exos=$(ls -d */)
 for exo in $exos; do
     message $BLUE "** $exo"
