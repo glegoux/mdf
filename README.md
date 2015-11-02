@@ -4,7 +4,7 @@
 
 ## Description
 
-Few short exercices to train its capacity to code with a limit of time (1h30 by session).  
+Several short exercices to train its capacity to code with a limit of time (1h30 by session).  
 
 See at http://lemeilleurdevdefrance.com/ for more details.  
 See statements of the coding contest 2015 at http://www.isograd.com/EN/contestsolution.php.  
@@ -19,11 +19,11 @@ Each session has 7 exercices, each one matches to a folder that contains :
 
 ## Usage
 
-Here an example of output after that you executed the script `./launch` (see **6.** ) :
+Here an example of output after executing the script `./launch` (see **6.** ) :
 
 ![alt text][example]
 
-We can write your own solution. If you have a Bourne Shell, do what is following :
+We can write your own solution. If you have a Bourne Shell, do the following statements :
 
 **1.** Choose your session (for instance go to `2014/`).  
 
