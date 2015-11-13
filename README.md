@@ -4,7 +4,7 @@
 
 ## Description
 
-Several short exercices to train its capacity to code with a limit of time (1h30 by session).  
+Several short exercices to train his capacity to code with a limit of time (1h30 by session).  
 
 See at http://lemeilleurdevdefrance.com/ for more details.  
 See statements of the coding contest 2015 at http://www.isograd.com/EN/contestsolution.php.  
