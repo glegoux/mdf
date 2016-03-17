@@ -4,14 +4,18 @@
 
 ## Description
 
-Several short exercices to train his capacity to code with a limit of time (1h30 by session).  
+Several short exercices to train its capacity to code with a limit of time.  
 
 See at http://lemeilleurdevdefrance.com/ for more details.  
-See statements of the coding contest 2015 at http://www.isograd.com/EN/contestsolution.php.  
+See statements of the coding contest 2016 at http://www.isograd.com/EN/contestsolution.php.  
 
-The 2014 and 2015 session are availabe with my solution in Python 3.
+The 2014 and 2015 competition are availabe with my solution in Python 3.
+These competitions have 7 exercices and last 1 hour and 30 minutes.  
+The 2016 competition is availabe with my solution in Python 3.
+This competition have sessions (first round, session1 or session2 with 3 exercices) then the final (final round with 2 exercices). 
+Each round lasts 45 minutes.  
 
-Each session has 7 exercices, each one matches to a folder that contains :
+Each exercice matches to a folder that contains :
 - `answer.py`      : your response with a script in Python 3.  
 - `direction.png`  : the statements of the current exercise.  
 - `input<i>.txt`   : a test from stdin.  
