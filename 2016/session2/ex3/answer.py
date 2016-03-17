@@ -7,12 +7,6 @@
 #  Use 'local_print(variable, ... )' to display simple variables in a dedicated area.
 #
 
-import sys
-
-lines = list()
-for line in sys.stdin:
-      lines.append(line.rstrip('\n'))
-
 def damerau_levenshtein_distance(a, b):
     n = len(a)
     m = len(b)

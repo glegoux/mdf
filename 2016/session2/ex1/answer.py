@@ -13,14 +13,13 @@ lines = list()
 for line in sys.stdin:
       lines.append(line.rstrip('\n'))
 
-X = lines[0]
+X = int(lines[0])
 del lines[0]
-N = lines[0]
+N = int(lines[0])
 del lines[0]
 
-for l in lines:
-    Y = int(lines[0])
-    del lines[0]
+for i in range(N):
+    Y = int(lines[i])
     X -= Y
 
 print(X)

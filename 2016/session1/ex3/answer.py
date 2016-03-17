@@ -13,26 +13,35 @@ lines = list()
 for line in sys.stdin:
       lines.append(line.rstrip('\n'))
 
-M = lines[0]
+total = int(lines[0])
+del lines[0]
+N = int(lines[0])
 del lines[0]
 
-vs = []
-q = {}
-for l in lines:
-  v, q = list(map(int, l.split(' ')))
-  vs.append(v)
-  q[v] = q
+system = []
+for i in range(N):
+    nb, amount = map(int, lines[i].split(' '))
+    for _ in range(nb):
+        system.append(amount)
+nb_coins = len(system)
 
-vs.sort(reversed=True)
+min_coins = []
+for _ in range(nb_coins + 1):
+  min_coins.append([float('inf')] * (total + 1))
+min_coins[0][0] = 0
 
+for i in range(1, nb_coins + 1):
+    for j in range(total + 1):
+        if j == 0:
+            min_coins[i][j] = 0
+        else:
+            best = min_coins[i - 1][j]
+            if j >= system[i - 1]:
+                best = min(best, 1 + min_coins[i - 1][j - system[i - 1]])
+            min_coins[i][j] = best
 
-k = 0
-o = 0
-while M > q[k]:
-    for i, v in enumerate(vs):
-        if v > M and q[v] != 0:
-          M -= v
-          o += 1
-          k = i
-print(o)
+if min_coins[nb_coins][total] == float('inf'):
+    print('IMPOSSIBLE')
+else:
+    print(min_coins[nb_coins][total])
 
