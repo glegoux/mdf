@@ -1,14 +1,14 @@
 # Session 1
 
-## Exercise 1 : 
+## Exercise 1 : Peugeot automative production
 
 ![alt text][s1-ex1]
 
-## Exercise 2 : 
+## Exercise 2 : Snake
 
 ![alt text][s1-ex2]
 
-## Exercise 3 : 
+## Exercise 3 : Vending machine
 
 ![alt text][s1-ex3]
 

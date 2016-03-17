@@ -1,38 +1,38 @@
 # Session 1
 
-## Exercise 1 : 
+## Exercise 1 : Peugeot automative production
 
 ![alt text][s1-ex1]
 
-## Exercise 2 : 
+## Exercise 2 : Snake
 
 ![alt text][s1-ex2]
 
-## Exercise 3 : 
+## Exercise 3 : Vending machine
 
 ![alt text][s1-ex3]
 
 # Session 2
 
-## Exercise 1 : 
+## Exercise 1 : Peugeot advertising poster
 
 ![alt text][s2-ex1]
 
-## Exercise 2 : 
+## Exercise 2 : Weighted pseudo-XML
 
 ![alt text][s2-ex2]
 
-## Exercise 3 : 
+## Exercise 3 : Automatic correction
 
 ![alt text][s2-ex3]
 
 # Final
 
-## Exercise 1 : 
+## Exercise 1 : Fibre optics 1
 
 ![alt text][f-ex1]
 
-## Exercise 2 : 
+## Exercise 2 : Fibre optics 2
 
 ![alt text][f-ex2]
 
