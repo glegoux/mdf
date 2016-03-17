@@ -16,15 +16,15 @@
 
 ## Exercise 1 : 
 
-![alt text][s1-ex1]
+![alt text][s2-ex1]
 
 ## Exercise 2 : 
 
-![alt text][s1-ex2]
+![alt text][s2-ex2]
 
 ## Exercise 3 : 
 
-![alt text][s1-ex3]
+![alt text][s2-ex3]
 
 # Final
 
