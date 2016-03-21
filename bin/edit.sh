@@ -1,13 +1,13 @@
 #!/bin/sh
 
-# execute this script from another folder than the current one
-cd $(dirname "$0")
-
 # import
 cd $(git rev-parse --show-toplevel)
 . "./bin/color.sh"
 . "./bin/helper.sh"
 cd - 2>&1 > /dev/null
+
+# execute this script from another folder than the current one
+cd $(dirname "$0")
 
 # config
 ALLOWED_EDITOR_TERM="vim:nano:emacs -nw:more:less:cat"
