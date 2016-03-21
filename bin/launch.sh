@@ -1,14 +1,14 @@
 #!/bin/sh
 
-# execute this script from another folder than the current one
-cd $(dirname "$0")
-
 # import
 cd $(git rev-parse --show-toplevel)
 ROOT_DIR="${PWD}"
 . "./bin/color.sh"
 . "./bin/helper.sh"
 cd - 2>&1 > /dev/null
+
+# execute this script from another folder than the current one
+cd $(dirname "$0")
 
 # script
 message $YELLOW "--- BEGIN: Test MDF $(basename "$(pwd)") ($(pwd)) ---"
