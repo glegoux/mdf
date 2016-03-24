@@ -45,13 +45,6 @@ We can write your own solution. If you have a Bourne Shell, do the following sta
 
 **7.** If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
-## History
-
-* MDF I   (2013) : I look for the 11 questions, If you find that ?
-* MDF II  (2014) : http://www.isograd.com/FR/solutionconcours.php?contest_id=4
-* MDF III (2015) : http://www.isograd.com/FR/solutionconcours.php?contest_id=9
-* MDF IV  (2016) : http://www.isograd.com/FR/solutionconcours.php?contest_id=14
-
 *Note :*
 - The directions are in french because of it's a french competition.
 - You can put your tracks with the function `local_print()` directly. It creates a file `track<i>.txt` for each `input<i>.txt` for the current exercise, if you want to see your tracks again after running.    
