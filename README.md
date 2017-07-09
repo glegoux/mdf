@@ -6,7 +6,7 @@
 
 Several short exercices to train its capacity to code with a limit of time.  
 
-See at http://lemeilleurdevdefrance.com/ for more details.  
+See at http://www.meilleurdevdefrance.com/ for more details.  
 See statements of the coding contest 2016 at http://www.isograd.com/EN/contestsolution.php.  
 
 * The 2014 and 2015 competition are availabe with my solution in Python 3.
