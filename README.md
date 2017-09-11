@@ -6,15 +6,15 @@
 
 Several short exercices to train its capacity to code with a limit of time.  
 
-See at http://www.meilleurdevdefrance.com/ for more details.  
+See at http://www.meilleurdevdefrance.com/ for more details. It is a yearly French programming competition to elect the best developer.  
 See statements of the coding contest 2016 at http://www.isograd.com/EN/contestsolution.php.  
-
-* The 2014 and 2015 competition are availabe with my solution in Python 3.
-These competitions have 7 exercices and last 1 hour and 30 minutes.  
 
 * The 2016 competition is availabe with my solution in Python 3.
 This competition have sessions (first round, session1 or session2 with 3 exercices) then the final (final round with 2 exercices). 
 Each round lasts 45 minutes.  
+
+* The 2014 and 2015 competition are availabe with my solution in Python 3.
+These competitions have 7 exercices and last 1 hour and 30 minutes.  
 
 Each exercice matches to a folder that contains :
 - `answer.py`      : your response with a script in Python 3.  
