@@ -1,5 +1,7 @@
 # Competition "Meilleur Dev de France"
 
+[![Build Status](https://travis-ci.org/glegoux/mdf.svg?branch=master)](https://travis-ci.org/glegoux/mdf)
+
 ![alt text][mdf]
 
 ## Description
@@ -20,6 +22,8 @@ Each exercice matches to a folder that contains :
 - `direction.png`  : the statements of the current exercise.  
 - `input<i>.txt`   : a test from stdin.  
 - `output<i>.txt`  : the expected result for `input<i>.txt`.  
+
+* The 2013 competition is not found :(!
 
 ## Usage
 
@@ -52,6 +56,10 @@ In reality, when you are executing `./launch`, `main.py` is running instead of `
 - You can run the current exercise with a test `input<i>.txt` directly with the command `./answer.py < input<i>.txt`, but without using `local_print` function. This allows to do the exercises in any order, because the script `./launch` runs the exercises in ascending order, and stop as soon as an error (false reponse or syntax error ...) is found.
 - For each exercise, my solution is not the most efficient and relevant for performance. The goal of this competition is to find the solution the most quick to write, no always the most smart. 
 
+
+## Test and Continous Integration
+
+This project uses Travis CI, see `./test/test.sh`.
 
 [example]: https://github.com/glegoux/mdf/blob/master/example.png "example"
 [mdf]: https://github.com/glegoux/mdf/blob/master/mdf.png "mdf"
