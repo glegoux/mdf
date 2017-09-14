@@ -2,9 +2,8 @@
 #
 # test.sh
 # 
-#
-# Test all exercices for each yearly conpetition.
-# (except 2013 and 2016 session)
+# Test all exercices for each yearly competition.
+# (except 2013 and 2016 sessions)
 
 cd "$(dirname "$0")"
 cd ..
