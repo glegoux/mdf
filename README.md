@@ -6,28 +6,28 @@
 
 ## Description
 
-Several short exercices to train its capacity to code with a limit of time.  
+Several short exercises to train its capacity to code with a limit of time.  
 
 See at http://www.meilleurdevdefrance.com/ for more details. It is a yearly French programming competition to elect the best developer. See statements of the coding contest 2016 at http://www.isograd.com/EN/contestsolution.php.  
 
-* The 2016 competition is availabe with my solution in Python 3.
-This competition have sessions (first round, session1 or session2 with 3 exercices) then the final (final round with 2 exercices). 
+* The 2016 competition is available with my solution in Python 3.
+This competition have sessions (first round, session1 or session2 with 3 exercises) then the final (final round with 2 exercises).
 Each round lasts 45 minutes.  
 
-* The 2014 and 2015 competition are availabe with my solution in Python 3.
-These competitions have 7 exercices and last 1 hour and 30 minutes.  
+* The 2014 and 2015 competition are available with my solution in Python 3.
+These competitions have 7 exercises and last 1 hour and 30 minutes.  
 
-* The 2013 competition is not found :(!
+* The 2013 competition is not available :(. This competition has 11 exercises and lasts 3 hours.
 
 Each exercice matches to a folder that contains :
-- `answer.py`      : your response with a script in Python 3.  
+- `answer.py`      : your response that is a script in Python 3.  
 - `direction.png`  : the statements of the current exercise.  
 - `input<i>.txt`   : a test from stdin.  
 - `output<i>.txt`  : the expected result for `input<i>.txt`.  
 
 ## Usage
 
-You can run this project offline.
+You can run this project off-line.
 
 Here an example of output after executing the script `./launch` (see **6.** ) :
 
@@ -51,12 +51,12 @@ We can write your own solution. If you have a Bourne Shell, do the following sta
 **7.** If your results are correct for each `input<i>.txt`, you can go to the next exercise.
 
 *Note :*
-- The directions are in french because of it's a french competition.
+- The directions are in French because of it's a French competition.
 - You can put your tracks with the function `local_print()` directly. It creates a file `track<i>.txt` for each `input<i>.txt` for the current exercise, if you want to see your tracks again after running.    
 In reality, when you are executing `./launch`, `main.py` is running instead of `answer.py`, see `bin/` folder.  
 - You can use the script `./edit`, if you want read and/or edit all exercises of the current session.
 - You can run the current exercise with a test `input<i>.txt` directly with the command `./answer.py < input<i>.txt`, but without using `local_print` function. This allows to do the exercises in any order, because the script `./launch` runs the exercises in ascending order, and stop as soon as an error (false reponse or syntax error ...) is found.
-- For each exercise, my solution is not the most efficient and relevant for performance. The goal of this competition is to find the solution the most quick to write, no always the most smart. 
+- For each exercise, my solution is not the most efficient and relevant for performance. The goal of this competition is to find the solution the most quick to write, no always the most smart.
 
 
 ## Test and Continous Integration
