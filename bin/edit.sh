@@ -10,8 +10,9 @@ cd - 2>&1 > /dev/null
 cd $(dirname "$0")
 
 # config
+DEFAULT_EDITOR="pycharm"
 ALLOWED_EDITOR_TERM="vim:nano:emacs -nw:more:less:cat"
-ALLOWED_EDITOR="eclipse:gedit"
+ALLOWED_EDITOR="eclipse:gedit:atom:pycharm"
 
 exos=$(ls -d */ 2> /dev/null)
 
@@ -20,14 +21,14 @@ if [ -z "$exos" ]; then
   exit 1
 fi
 
-message $YELLOW "--- BEGIN: Edit MDF $(basename "$(pwd)") ($(pwd)) ---"
-
-editor="$1"
+editor="${1:-$DEFAULT_EDITOR}"
 which "$(echo $editor | cut -d " " -f1)" > /dev/null
 if test $? -ne 0; then
     error "'$editor' uninstalled"
     exit 1
 fi
+
+message $YELLOW "--- BEGIN: Edit MDF $(basename "$(pwd)") ($(pwd)) ---"
 
 term=false
 known=false
