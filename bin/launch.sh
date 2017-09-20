@@ -10,10 +10,16 @@ cd - 2>&1 > /dev/null
 # execute this script from another folder than the current one
 cd $(dirname "$0")
 
+exos=$(ls -d */ 2> /dev/null)
+
+if [ -z "$exos" ]; then
+  >&2 echo "ERROR: No one exercise!"
+  exit 1
+fi
+
 # script
 message $YELLOW "--- BEGIN: Test MDF $(basename "$(pwd)") ($(pwd)) ---"
 
-exos=$(ls -d */)
 for exo in $exos; do
     message $BLUE "** $exo"
     cd "$exo"

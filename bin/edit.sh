@@ -13,6 +13,13 @@ cd $(dirname "$0")
 ALLOWED_EDITOR_TERM="vim:nano:emacs -nw:more:less:cat"
 ALLOWED_EDITOR="eclipse:gedit"
 
+exos=$(ls -d */ 2> /dev/null)
+
+if [ -z "$exos" ]; then
+  >&2 echo "ERROR: No one exercise!"
+  exit 1
+fi
+
 message $YELLOW "--- BEGIN: Edit MDF $(basename "$(pwd)") ($(pwd)) ---"
 
 editor="$1"
@@ -45,7 +52,6 @@ if ! $known; then
     exit 1
 fi
 
-exos=$(ls -d */)
 for exo in $exos; do
     cd $exo
     message $BLUE "** $exo"
