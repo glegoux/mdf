@@ -10,11 +10,11 @@ Several short exercises to train its capacity to code with a limit of time.
 
 See at http://www.meilleurdevdefrance.com/ for more details. It is a yearly French programming competition to elect the best developer. See statements of the coding contest 2016 at http://www.isograd.com/EN/contestsolution.php.  
 
-* The 2016 competition is available with my solution in Python 3.
-This competition have sessions (first round, session1 or session2 with 3 exercises) then the final (final round with 2 exercises).
+* The 2016 and 2017 competitions are available with my solution in Python 3.
+These competitions have sessions (first round, session1 or session2 with 3 exercises) then the final (final round with 2 exercises).
 Each round lasts 45 minutes.  
 
-* The 2014 and 2015 competition are available with my solution in Python 3.
+* The 2014 and 2015 competitions are available with my solution in Python 3.
 These competitions have 7 exercises and last 1 hour and 30 minutes.  
 
 * The 2013 competition is not available :(. This competition has 11 exercises and lasts 3 hours.
