@@ -2,7 +2,6 @@
 #
 # Test configuration:
 # - cli          : travis lint ./.travis.yml
-# - web interface: https://lint.travis-ci.org/glegoux/mdf
 
 language: python
 
